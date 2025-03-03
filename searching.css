@@ -1,0 +1,39 @@
+.searchbar{
+    width: 180px;
+    height: 30px;
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+input{
+    
+    border: black;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.glass:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.social-icon{
+    align-items: center;
+    justify-content: center;
+
+}
+.fa-brands{
+    font-size: 50px;
+    margin: 0 10px;
+    color: #333;
+    cursor: pointer;
+}
+.fa-brands:hover{
+    color: orangered;
+}

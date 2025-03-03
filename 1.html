@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="containerrr">
+        <h1>Products Page</h1>
+        <div class="cart-section">
+            <h2>Cart</h2>
+            <button class="btnnn" id="viewCart">View Cart</button>
+            <ul id="cartItems"></ul>
+        </div>
+        
+        <!-- Product Card -->
+        <div class="product-card">
+            <img src="chilli.png" alt="" style=" width: 150px; ">
+            <h2 style="text-align: left;">Chillis</h2>
+            <p>Price: 50</p>
+            <button class="btnnn" id="addToCart">Add to Cart</button>
+            <button class="btnnn" id="addToWishlist">Add to Wishlist</button>
+        </div>
+        <div class="product-card">
+            <img src="1.png" alt="" style=" width: 150px; ">
+            <h2 style="text-align: left;">Chillis</h2>
+            <p>Price: 50</p>
+            <button class="btnnn" id="addToCart">Add to Cart</button>
+            <button class="btnnn" id="addToWishlist">Add to Wishlist</button>
+        </div>
+        <div class="product-card">
+            <img src="2.png" alt="" style=" width: 150px; ">
+            <h2 style="text-align: left;">Chillis</h2>
+            <p>Price: 50</p>
+            <button class="btnnn" id="addToCart">Add to Cart</button>
+            <button class="btnnn" id="addToWishlist">Add to Wishlist</button>
+        </div>
+
+        <!-- Checkout Section -->
+        <div class="checkout-section">
+            <h2>Checkout</h2>
+            <form id="checkoutForm">
+                <input type="text" id="name" placeholder="Enter Your Name" required>
+                <textarea id="address" placeholder="Enter Your Address" rows="4" required></textarea>
+                <button class="btnnn" type="submit">Pay on Delivery</button>
+                <button class="btnnn" type="submit"><a href="INDEX.html">Home Page</a></button>
+            </form>
+        </div>
+
+        <!-- Logs Section -->
+        <div class="logs">
+            <h3>Logs</h3>
+            <ul id="logMessages"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
